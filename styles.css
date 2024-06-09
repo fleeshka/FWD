@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ededed;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    width: auto;
+}
+
+a {
+    margin: 20px;
+    color: rgb(130, 68, 72);
+    text-decoration: none;
+}
+
+.my-photo {
+    border-radius: 5%;
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+    margin: 40px;
+}
+
+main {
+    width: auto;
+}
+
+header {
+    background-color: #a8e4a0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.profile-name {
+    font-size: 50px;
+    font-weight: bold; 
+    color: #333; 
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+}
+
+.section-title {
+    font-size: 40px; 
+    font-weight: bold; 
+}
+
+.bio p {
+    font-size: 20px; 
+    font-style: italic; 
+    line-height: 1.6;
+    margin-right: 50px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.icon-link {
+    font-size: 2em;
+}
+
+#tg-link {
+    display: inline-block;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+#tg-link img {
+    width: 40px;
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .bio h2 {
+        font-size: 20px;
+    }
+    .bio p {
+        font-size: 14px;
+    }
+
+    
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
+    header {
+        flex-direction: row;
+    }
+}
