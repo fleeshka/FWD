@@ -13,7 +13,6 @@ a {
     text-decoration: none;
 }
 
-
 header {
     background-color: #b6d6bf;
     display: flex;
@@ -31,6 +30,7 @@ header {
     margin-left: 4%;
     margin-bottom: 3%;
 }
+
 body{
     font-family: "DM Serif Text", serif;
     word-spacing: 4px;
@@ -41,7 +41,6 @@ body{
     font-size: 50px;
     font-weight: bold; 
     color: #132f1b;
-    align-self: center;
     text-transform: uppercase; 
     letter-spacing: 1px;
 }
@@ -49,9 +48,10 @@ body{
 .bio h2 {
     color: #183d23;
 }
+
 .bio p {
     color: #0f0f0f;
-    font-size: 20px; 
+    font-size: 140%; 
     line-height: 1.6;
     margin-right: 50px;
 }
@@ -59,21 +59,22 @@ body{
 main {
     display: flex;
     flex-direction: row;
-    margin-left: 7%;
     margin-top: 4%;
     margin-right: 4%;
-}
-  
+    font-size: 130%;
+} 
 
-.skills {
-    width: 29.5%;
+.my-background{
+    margin-left: 10%;
+}
+
+.skills{
+    margin-left: 10%
 }
 
 .skills h2, .my-background h2{
     color: #183d23;
 }
-
-
 
 footer {
     margin-top: 5%; 
@@ -82,11 +83,10 @@ footer {
     padding: 10px 0; 
 }
 
-
 .profile-info {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 100px;     
 }
 
 .section-title {
@@ -116,7 +116,6 @@ footer {
     scale: 1.2;
 }
 
-
 @media (max-width: 767px) {
     body {
         font-size: 14px;
@@ -130,9 +129,7 @@ footer {
     }
     .bio p {
         font-size: 14px;
-    }
-
-    
+    }  
 }
 
 @media (max-width: 768px){
@@ -156,9 +153,7 @@ footer {
     body {
         font-size: 16px;
 
-    }
-    
-    
+    } 
 }
 
 /* Extra large devices (large desktops) */
