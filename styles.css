@@ -3,7 +3,6 @@ body {
     padding: 0;
     background: #ffffff;
     min-height: 100vh;
-    font-family: Arial, sans-serif;
     box-sizing: border-box;
     width: auto;
 }
@@ -34,6 +33,7 @@ header {
 }
 body{
     font-family: "DM Serif Text", serif;
+    word-spacing: 4px;
     background-color: #e9eded;
 }
 
@@ -67,7 +67,6 @@ main {
 
 .skills {
     width: 29.5%;
-
 }
 
 .skills h2, .my-background h2{
@@ -113,6 +112,11 @@ footer {
     width: 40px;
 }
 
+#tg-link img:hover, #gm-link img:hover, #gh-link img:hover {
+    scale: 1.2;
+}
+
+
 @media (max-width: 767px) {
     body {
         font-size: 14px;
@@ -144,9 +148,7 @@ footer {
     }
     main{
         flex-direction: column;
-    }
-    
-    
+    }   
 }
 
 /* Large devices (desktops, less than 1200px) */
