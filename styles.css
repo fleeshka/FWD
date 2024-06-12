@@ -3,10 +3,10 @@ body {
     padding: 0;
     min-height: 100vh;
     box-sizing: border-box;
-    /* width: 100vw; */
     font-family: "DM Serif Text", serif;
     word-spacing: 4px;
     background-color: #e9eded;
+    font-size: 24px;
 }
 
 a {
@@ -34,12 +34,20 @@ header {
 }
 
 .profile-name {
-    font-size: 280%;
+    font-size: 64px;
     margin-top: 5%;
-    font-weight: bold; 
     color: #132f1b;
     text-transform: uppercase; 
     letter-spacing: 1px;
+}
+h2 {
+    font-size: 48px;
+    margin: 32px 0 28px;
+}
+
+h3 {
+    font-size: 32px;
+    margin: 28px 0 24px;
 }
 
 .bio h2 {
@@ -48,7 +56,6 @@ header {
 
 .bio p {
     color: #0f0f0f;
-    font-size: 130%; 
     line-height: 1.6;
     margin-right: 50px;
 }
@@ -58,22 +65,20 @@ main {
     flex-direction: row;
     margin-top: 2%;
     margin-right: 4%;
-    font-size: 130%;
 } 
 
 .my-background{
-    margin-left: 10%;
-    /* width: 100%; */
+    margin-left: 100px;     
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
 
 .skills{
-    margin-left: 10%;
+    margin-left: 100px;     
 }
 
-.skills h2, .my-background h2{
+.skills h2, .my-background h2 {
     color: #183d23;
 }
 
@@ -113,10 +118,6 @@ footer {
     margin-left: 100px;     
 }
 
-.section-title {
-    font-size: 250%; 
-    font-weight: bold; 
-}
 
 .navigation {
     display: flex;
@@ -125,7 +126,7 @@ footer {
 }
 
 .icon-link {
-    font-size: 2em;
+    font-size: 24px;
 }
 
 #tg-link, #gm-link, #gh-link  {
@@ -156,9 +157,6 @@ footer {
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991px) {
-    body {
-        font-size: 15px;
-    }
     main{
         flex-direction: column;
     }  
@@ -166,10 +164,6 @@ footer {
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199px) {
-    body {
-        font-size: 16px;
-
-    } 
     .education-item, .experience-item{
         flex-direction: column;
         align-content: flex-start;
@@ -179,9 +173,6 @@ footer {
 
 /* Extra large devices (large desktops) */
 @media (min-width: 1200px) {
-    body {
-        font-size: 18px;
-    }
     main, header {
         flex-direction: row;
     }
