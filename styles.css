@@ -154,15 +154,40 @@ footer {
 }
 
 button{
-    width: 100px;
-    height: 50px;
+    width: 120px;
+    height: 60px;
     margin-top: 32px;
     justify-self: start;
+    border-radius: 12px;
+    background-color: #b6d6bf;
+    color: #21512fbc;
+    border: 0px solid #4CAF50;
+    font-family: "DM Serif Text", serif;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    transition: all 0.5s;
+  cursor: pointer;
 }
 
-button:hover{
-    scale: 1.2;
+button:hover{ 
+    color:  #183d23;
 }
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
 
 
 @media (max-width: 767px) {
