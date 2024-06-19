@@ -141,6 +141,30 @@ footer {
     scale: 1.2;
 }
 
+#comic-container{
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+#comic-container h2{
+    font-size: 28px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    margin-top: 32px;
+    justify-self: start;
+}
+
+button:hover{
+    scale: 1.2;
+}
+
+
 @media (max-width: 767px) {
     .education-item, .experience-item{
         flex-direction: column;

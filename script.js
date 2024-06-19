@@ -1,3 +1,5 @@
+function getComic(){
+
 const email = 'u.chaikouskaya@innopolis.university';
 const searchParams = new URLSearchParams();
 searchParams.append('email', email);
@@ -33,4 +35,8 @@ function displayComic(comic) {
     container.appendChild(title);
     container.appendChild(img);
     container.appendChild(date);
+
+    document.querySelector("#comicButton").remove()
+}
+
 }
