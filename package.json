@@ -1,25 +1,4 @@
 {
-<<<<<<< Updated upstream
-  "name": "fwd",
-  "version": "1.0.0",
-  "description": "Front-end Web Development course,  Summer 2024, Innopolis University",
-  "main": "script.js",
-  "scripts": {
-    "build": "webpack"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "terser-webpack-plugin": "^5.3.10",
-    "ts-loader": "^9.5.1",
-    "typescript": "^5.5.2",
-    "webpack": "^5.92.1",
-    "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
-    "dayjs": "^1.11.11"
-=======
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -65,6 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
->>>>>>> Stashed changes
   }
 }

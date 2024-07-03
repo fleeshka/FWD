@@ -1,18 +1,4 @@
 {
-<<<<<<< Updated upstream
-    "compilerOptions": {
-      "outDir": "./dist/",
-      "noImplicitAny": true,
-      "module": "es6",
-      "target": "es5",
-      "jsx": "react",
-      "allowJs": true,
-      "moduleResolution": "node",
-      "allowSyntheticDefaultImports": true,
-      "strict": true
-    }
-  }
-=======
   "compilerOptions": {
     "target": "ES6",
     "module": "commonjs",
@@ -27,4 +13,3 @@
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
 }
->>>>>>> Stashed changes
