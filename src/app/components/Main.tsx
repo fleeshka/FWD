@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
-import Comic from './Comic';
+import React from 'react';
+
 import Skills from './Skills';
 import Bio from './Bio';
 
+const Comic = React.lazy(() => import('./Comic'));
+
 const Main: React.FC = () => {
-  const [comic, setComic] = useState<typeof Comic | null>(null);
+  const [comic, setComic] = React.useState<any | null>(null);
 
   const getComic = async () => {
     const email = 'u.chaikouskaya@innopolis.university';

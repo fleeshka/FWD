@@ -1,10 +1,10 @@
 import React from 'react';
-import profilePhoto from '../images/profilePhoto.jpg';
+import profilePhoto from '/public/images/profilePhoto.jpg';
 
 const Header: React.FC = () => (
   <>
     <header>
-      <img src={profilePhoto} alt="my-photo:(" className="my-photo" />
+      <img src={profilePhoto.src} alt="my-photo:(" className="my-photo" />
       <div className="profile-info">
         <h1 className="profile-name">Ulyana Chaikouskaya</h1>
         <div className="bio">

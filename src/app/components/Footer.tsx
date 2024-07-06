@@ -1,7 +1,7 @@
 import React from 'react';
-import tgLogo from '../images/tg-logo.png';
-import ghLogo from '../images/gh-img.png';
-import gmLogo from '../images/gm-logo.png';
+import tgLogo from '/public/images/tg-logo.png';
+import ghLogo from '/public/images/gh-img.png';
+import gmLogo from '/public/images/gm-logo.png';
 
 const Footer: React.FC = () => (
   <>
@@ -13,7 +13,7 @@ const Footer: React.FC = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <img src={tgLogo} alt="Telegram" />
+          <img src={tgLogo.src} alt="Telegram" />
         </a>
         <a
           href="https://github.com//fleeshka"
@@ -21,7 +21,7 @@ const Footer: React.FC = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <img src={ghLogo} alt="GitHub" />
+          <img src={ghLogo.src} alt="GitHub" />
         </a>
         <a
           href="mailto:u.chaikovskaya@gmail.com"
@@ -29,7 +29,7 @@ const Footer: React.FC = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <img src={gmLogo} alt="Email" />
+          <img src={gmLogo.src} alt="Email" />
         </a>
       </nav>
     </footer>

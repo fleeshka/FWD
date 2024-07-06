@@ -1,48 +1,29 @@
 {
-  "name": "my-app",
+  "name": "my-next-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "check": "tsc --noEmit"
+    "build": "next build",
+    "lint": "next lint",
+    "format": "prettier --check .",
+    "export": "next export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
-    "dayjs": "^1.10.7",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "^5.0.1",
-    "web-vitals": "^4.2.1"
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@testing-library/jest-dom": "^6.4.6",
-    "@testing-library/react": "^16.0.0",
-    "@types/jest": "^29.5.12",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "css-loader": "^7.1.2",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.31.0",
-    "file-loader": "^6.2.0",
-    "style-loader": "^4.0.0",
-    "ts-loader": "^9.4.1",
-    "typescript": "^4.4.3",
-    "webpack": "^5.92.1",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.4"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8",
+    "prettier": "^3.3.2",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }

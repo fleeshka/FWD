@@ -1,6 +1,7 @@
+// Comic.tsx
 import React from 'react';
 
-interface ComicProps {
+export interface ComicProps {
   title: string;
   img: string;
   alt: string;
