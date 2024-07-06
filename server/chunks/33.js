@@ -1,0 +1,1 @@
+"use strict";exports.id=33,exports.ids=[33],exports.modules={6033:(s,e,d)=>{d.r(e),d.d(e,{default:()=>i});var r=d(997);d(6689);let i=({title:s,img:e,alt:d,date:i})=>(0,r.jsxs)("div",{children:[r.jsx("h2",{children:s}),r.jsx("img",{src:e,alt:d}),(0,r.jsxs)("p",{children:["Published on: ",i]})]})}};

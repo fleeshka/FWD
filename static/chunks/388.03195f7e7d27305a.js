@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[388],{7388:function(s,e,l){l.r(e);var n=l(5893);l(7294),e.default=s=>{let{title:e,img:l,alt:r,date:c}=s;return(0,n.jsxs)("div",{children:[(0,n.jsx)("h2",{children:e}),(0,n.jsx)("img",{src:l,alt:r}),(0,n.jsxs)("p",{children:["Published on: ",c]})]})}}}]);
