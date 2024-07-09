@@ -1,5 +1,5 @@
-// Comic.tsx
 import React from 'react';
+import Image from 'next/image';
 
 export interface ComicProps {
   title: string;
@@ -11,7 +11,7 @@ export interface ComicProps {
 const Comic: React.FC<ComicProps> = ({ title, img, alt, date }) => (
   <div>
     <h2>{title}</h2>
-    <img src={img} alt={alt} />
+    <Image src={img} alt={alt} width={500} height={500} />
     <p>Published on: {date}</p>
   </div>
 );
