@@ -6,11 +6,8 @@ module.exports = {
     basePath: '/FWD',
     assetPrefix: '/FWD/',
     trailingSlash: true,
-    images: {
-      images: {
-        unoptimized: true, 
-        domains: ['imgs.xkcd.com'], 
-      },
-    },
   }),
+  images: {
+    domains: ['imgs.xkcd.com'], 
+  },
 };
