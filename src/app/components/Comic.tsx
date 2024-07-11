@@ -1,18 +1,22 @@
-// Comic.tsx
 import React from 'react';
+import Image from 'next/image';
 
 export interface ComicProps {
   title: string;
   img: string;
   alt: string;
-  date: string;
+  day: string;
+  month: string;
+  year: string;
 }
 
-const Comic: React.FC<ComicProps> = ({ title, img, alt, date }) => (
+const Comic: React.FC<ComicProps> = ({ title, img, alt, day, month, year }) => (
   <div>
     <h2>{title}</h2>
-    <img src={img} alt={alt} />
-    <p>Published on: {date}</p>
+    <Image src={img} alt={alt} width={500} height={500} />
+    <p>
+      Published on: {day}.{month}.{year}
+    </p>
   </div>
 );
 
