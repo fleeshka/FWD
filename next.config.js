@@ -7,7 +7,10 @@ module.exports = {
     assetPrefix: '/FWD/',
     trailingSlash: true,
     images: {
-      unoptimized: true,
+      images: {
+        unoptimized: true, 
+        domains: ['imgs.xkcd.com'], 
+      },
     },
   }),
 };
