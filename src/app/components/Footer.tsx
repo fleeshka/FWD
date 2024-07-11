@@ -13,7 +13,7 @@ const Footer: React.FC = () => (
         target="_blank"
         rel="noreferrer"
       >
-        <Image src={tgLogo} alt="Telegram" width={32} height={32} />
+        <Image src={tgLogo} alt="Telegram" width={30} height={32} />
       </a>
       <a
         href="https://github.com//fleeshka"
@@ -21,7 +21,7 @@ const Footer: React.FC = () => (
         target="_blank"
         rel="noreferrer"
       >
-        <Image src={ghLogo} alt="GitHub" width={32} height={32} />
+        <Image src={ghLogo} alt="GitHub" width={30} height={32} />
       </a>
       <a
         href="mailto:u.chaikovskaya@gmail.com"
@@ -29,7 +29,7 @@ const Footer: React.FC = () => (
         target="_blank"
         rel="noreferrer"
       >
-        <Image src={gmLogo} alt="Email" width={32} height={32} />
+        <Image src={gmLogo} alt="Email" width={30} height={32} />
       </a>
     </nav>
   </footer>

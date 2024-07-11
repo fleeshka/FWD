@@ -5,14 +5,18 @@ export interface ComicProps {
   title: string;
   img: string;
   alt: string;
-  date: string;
+  day: string;
+  month: string;
+  year: string;
 }
 
-const Comic: React.FC<ComicProps> = ({ title, img, alt, date }) => (
+const Comic: React.FC<ComicProps> = ({ title, img, alt, day, month, year }) => (
   <div>
     <h2>{title}</h2>
     <Image src={img} alt={alt} width={500} height={500} />
-    <p>Published on: {date}</p>
+    <p>
+      Published on: {day}.{month}.{year}
+    </p>
   </div>
 );
 

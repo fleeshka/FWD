@@ -15,6 +15,8 @@ const Main: React.FC = () => {
         throw new Error('Failed to fetch comic ID');
       }
       const comicId: string = await response.json();
+      console.log(`Fetched Comic ID: ${comicId}`);
+
       window.location.href = `/comic/${comicId}`;
     } catch (error) {
       console.error(error);

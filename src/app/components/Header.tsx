@@ -4,7 +4,13 @@ import profilePhoto from '/public/images/profilePhoto.jpg';
 
 const Header: React.FC = () => (
   <header>
-    <Image src={profilePhoto} alt="my-photo:(" className="my-photo" width={150} height={150} />
+    <Image
+      src={profilePhoto}
+      alt="my-photo:("
+      className="my-photo"
+      width={150}
+      height={150}
+    />
     <div className="profile-info">
       <h1 className="profile-name">Ulyana Chaikouskaya</h1>
       <div className="bio">
@@ -12,9 +18,9 @@ const Header: React.FC = () => (
         <p>
           I am a first-year bachelor&apos;s student at Innopolis University,
           majoring in Informatics and Computer Engineering. For a long time I
-          was interested in robotics and developed digital twins, but I
-          changed university and delved into software development and
-          artificial intelligence.
+          was interested in robotics and developed digital twins, but I changed
+          university and delved into software development and artificial
+          intelligence.
         </p>
       </div>
     </div>
